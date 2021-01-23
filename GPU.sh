@@ -18,6 +18,8 @@ then
 			then
 				echo "Thats ok, I'll keep it on"
 				active=1
+				echo "Sending a resume in case it's sleeping"
+                                qm resume $i
 			else
 				echo "Shutting down"
 				qm shutdown $i
