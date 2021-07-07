@@ -1,4 +1,4 @@
 #GPU enabled
-hostpci0: 05:00,pcie=1,x-vga=1,romfile=vbios.bin
-hostpci1: 0c:00.3
+hostpci0: 0d:00,pcie=1,x-vga=1
+hostpci1: 0f:00.3
 vga: none
